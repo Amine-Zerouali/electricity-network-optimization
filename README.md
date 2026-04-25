@@ -14,7 +14,7 @@
 Ce projet propose une application Java/JavaFX permettant d'optimiser la distribution d'électricité dans un réseau composé de maisons et de générateurs. L'objectif est d'affecter chaque maison à un générateur de manière à minimiser simultanément la somme des distances entre les maisons et leurs générateurs, et les pénalités de surcharge des générateurs.
 
 Cinq algorithmes d'optimisation sont disponibles et comparables via une interface graphique interactive.
-
+ 
 ---
 
 ## Auteurs
