@@ -8,7 +8,7 @@
 [![Université Paris Cité](https://img.shields.io/badge/Université-Paris%20Cité-red)](https://u-paris.fr/)
 
 ---
-
+ 
 ## Description
 
 Ce projet propose une application Java/JavaFX permettant d'optimiser la distribution d'électricité dans un réseau composé de maisons et de générateurs. L'objectif est d'affecter chaque maison à un générateur de manière à minimiser simultanément la somme des distances entre les maisons et leurs générateurs, et les pénalités de surcharge des générateurs.
