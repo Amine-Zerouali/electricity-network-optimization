@@ -1,0 +1,92 @@
+/* ----- Variables basiques ----- */
+.root {
+    -fx-base: #ececec;
+    -fx-accent: #0096C9; 
+    -fx-default-button: #ABD8ED;
+    -fx-focus-color: #039ED3;
+    -fx-faint-focus-color: #039ED322; 
+}
+
+/* Titre */
+.titre-principal {
+    -fx-font-weight: bold;
+    -fx-font-size: 25px;
+    -fx-text-fill: #333;
+    -fx-padding: 10px 0;
+}
+
+.label-erreur {
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+/* ----- Boutons ----- */
+
+/* Bouton Rouge */
+.button-rouge {
+    -fx-base: #d9534f; 
+    -fx-background-color: 
+        -fx-shadow-highlight-color, 
+        -fx-outer-border, 
+        -fx-inner-border, 
+        -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.button-rouge:hover {
+    -fx-base: derive(#d9534f, 10%);
+}
+
+.button-rouge:armed {
+    -fx-color: derive(-fx-base, -20%);
+}
+
+/* Bouton Vert */
+.button-vert {
+    -fx-base: #28a745;
+    -fx-background-color: 
+        -fx-shadow-highlight-color, 
+        -fx-outer-border, 
+        -fx-inner-border, 
+        -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button-vert:hover {
+    -fx-base: derive(#28a745, 10%);
+}
+
+.button-vert:armed {
+    -fx-color: derive(-fx-base, -20%);
+}
+
+/* Bouton Bleu */
+.button-bleu {
+    -fx-base: #007bff;
+    -fx-background-color: 
+        -fx-shadow-highlight-color, 
+        -fx-outer-border, 
+        -fx-inner-border, 
+        -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button-bleu:hover {
+    -fx-base: derive(#007bff, 10%);
+}
+
+.button-bleu:armed {
+    -fx-color: derive(-fx-base, -20%);
+}
