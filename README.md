@@ -19,7 +19,7 @@ Cinq algorithmes d'optimisation sont disponibles et comparables via une interfac
 
 ## Auteurs
 
-- **Essamini Ayman**
+- **Essamni Ayman**
 - **Takenne Mekem Simeon**
 - **Zerouali Amine**
 
